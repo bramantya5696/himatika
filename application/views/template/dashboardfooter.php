@@ -25,19 +25,19 @@
         </div>
     </div>
 </section>
-<script src="<?= base_url('assets/HIMATIKA/dashboard/'); ?>app.js"></script>
-<script src="<?= base_url('assets/HIMATIKA/dashboard/'); ?>modaladdmenu.js"></script>
-<script src="<?= base_url('assets/HIMATIKA/dashboard/'); ?>modaladdsubmenu.js"></script>
-<script src="<?= base_url('assets/HIMATIKA/dashboard/'); ?>addrole.js"></script>
+<script src="<?= base_url('assets/himatika/dashboard/'); ?>app.js"></script>
+<script src="<?= base_url('assets/himatika/dashboard/'); ?>modaladdmenu.js"></script>
+<script src="<?= base_url('assets/himatika/dashboard/'); ?>modaladdsubmenu.js"></script>
+<script src="<?= base_url('assets/himatika/dashboard/'); ?>addrole.js"></script>
 <script src="<?= base_url('assets/') ?>vendor/jquery/jquery.min.js"></script>
 <script src="<?= base_url('assets/') ?>vendor/jquery-easing/jquery.easing.min.js"></script>
 
 <!-- Page level plugins -->
-<script src="<?= base_url('assets/HIMATIKA/dashboard/') ?>datatables/jquery.dataTables.min.js"></script>
-<script src="<?= base_url('assets/HIMATIKA/dashboard/') ?>datatables/dataTables.bootstrap4.min.js"></script>
+<script src="<?= base_url('assets/himatika/dashboard/') ?>datatables/jquery.dataTables.min.js"></script>
+<script src="<?= base_url('assets/himatika/dashboard/') ?>datatables/dataTables.bootstrap4.min.js"></script>
 
 <!-- Page level custom scripts -->
-<script src="<?= base_url('assets/HIMATIKA/dashboard/') ?>datatables/datatables-demo.js"></script>
+<script src="<?= base_url('assets/himatika/dashboard/') ?>datatables/datatables-demo.js"></script>
 
 <script>
     $('.form-check-input-role-access').on('click', function() {
