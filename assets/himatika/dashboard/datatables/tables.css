@@ -1,0 +1,61 @@
+* {
+	font-family: "Poppins", sans-serif;
+}
+.table-responsive {
+	width: 100%;
+	overflow-y: auto;
+	height: 600px;
+	padding: 0 10px;
+}
+.table-responsive::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+.table-responsive::-webkit-scrollbar-thumb {
+	background-color: #2d3436;
+}
+
+.table-responsive .row {
+	margin: 10px 0;
+}
+.table-responsive table {
+	width: 100%;
+}
+
+.table-responsive label {
+	font-size: 1.5rem;
+}
+.table-responsive select {
+	background-color: #dfe6e9;
+	border-radius: 3px;
+	border: 2px solid #636e72;
+	outline: none;
+}
+.table-responsive .dataTables_filter label {
+	display: flex;
+	justify-content: space-between;
+}
+.table-responsive .dataTables_filter input {
+	background-color: #dfe6e9;
+	border: 2px solid #636e72;
+	outline: none;
+}
+.table-responsive .row:last-of-type {
+	padding: 0 20px;
+}
+.table-responsive .dataTables_info {
+	font-size: 1.2rem;
+}
+.table-responsive .dataTables_paginate ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.table-responsive .dataTables_paginate ul li a {
+	font-size: 1.2rem;
+	color: #2d3436;
+}
+
+.table-responsive .dataTables_paginate ul li.active a {
+	color: #0984e3;
+}

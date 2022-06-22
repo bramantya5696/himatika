@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="evo-calendar.min.css" />
+    <link rel="stylesheet" type="text/css" href="evo-calendar.royal-navy.min.css" />
+    <link rel="icon" href="image/logo himatika resized.png">
+    <title>Kalender HIMATIKA ITS</title>
+    <script src="https://kit.fontawesome.com/cfc3799fd9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="navbar">
+        <div class="navbar container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#header"><img src="image/logo himatika resized.png" alt=""></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"><i class="fas fa-bars"></i></div>
+                    </div>
+                    <ul class="menu">
+                        <li><i class="fas fa-arrow-right"></i></li>
+                        <li><a class="menu-text" href="index.html">Beranda</a></li>
+                        <li><a class="menu-text" href="about.html">Tentang HIMATIKA</a></li>
+                        <li><a class="menu-text" href="calendar.html">Kalender</a></li>
+                        <li><a class="menu-text" href="contact.html">Kontak Kami</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="subsection">
+        <div class="subsection container">
+            <div class="super-section-title">
+                <h1>Kalender HIMATIKA ITS</h1>
+            </div>
+        </div>
+    </section>
+    <section id="kalender">
+        <div class="kalender container">
+            <div id="calendar"></div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer container">
+            <div class="logo">
+                <img src="image/logo himatika resized.png" alt="">
+            </div>
+            <div class="content">
+                <div class="point">
+                    <div class="subpoint">
+                        <div class="title">HIMATIKA</div>
+                        <div class="subcontent-list">
+                            <ul>
+                                <li>qwert</li>
+                                <li>qwert</li>
+                                <li>qwert</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="subpoint">
+                        <div class="title">HIMATIKA</div>
+                        <div class="subcontent-list">
+                            <ul>
+                                <li>qwert</li>
+                                <li>qwert</li>
+                                <li>qwert</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="follow-me">
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright</p>
+        </div>
+    </section>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="evo-calendar.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#calendar').evoCalendar({
+                theme: "Royal Navy",
+                calendarEvents: [
+                    {
+                        id: 'Event 1', // Event's ID (required)
+                        name: "New Year", // Event name (required)
+                        description: "Tahun baru 2020",
+                        date: "January/1/2020", // Event date (required)
+                        type: "holiday", // Event type (required)
+                        everyYear: true // Same event every year (optional)
+                    },
+                    {
+                        name: "Vacation Leave",
+                        badge: "02/13 - 02/15", // Event badge (optional)
+                        date: ["February/13/2020", "February/15/2020"], // Date range
+                        description: "Vacation leave for 3 days.", // Event description (optional)
+                        type: "event",
+                        color: "#63d867" // Event custom color (optional)
+                    }
+                ]
+            })
+        })
+    </script>
+</body>
+
+</html>
