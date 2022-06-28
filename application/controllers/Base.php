@@ -105,7 +105,7 @@ class Base extends CI_Controller
     public function articles()
     {
         $data['title'] = "Artikel";
-        $data['artcs_topic'] = $this->db->get('base_articles')->result_array();
+        $data['articles'] = $this->db->get('base_articles_list')->result_array();
 
         $this->load->view('template/basenavbar', $data);
         $this->load->view('base/articles', $data);

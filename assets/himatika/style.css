@@ -1333,17 +1333,14 @@ ol li {
 #articles .articles .articles-box {
 	margin: 20px 0;
 }
-#articles .articles .articles-box .header {
+/* #articles .articles .articles-box .header {
 	font-size: 2rem;
 	font-weight: 600;
 	color: #0984e3;
 	border-left: 2px solid #fd79a8;
 	text-align: left;
 	padding: 0 10px;
-	/* background: -webkit-linear-gradient(#fd79a8, #81ecec);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent; */
-}
+} */
 #articles .articles .articles-box .articles-box-flex {
 	display: flex;
 	flex-wrap: wrap;
