@@ -44,6 +44,7 @@
                         <li><i class="fas fa-arrow-right"></i></li>
                         <li class="menu-text"><a href="<?= base_url("base/"); ?>">Beranda</a></li>
                         <li class="menu-text"><a href="<?= base_url("base/about"); ?>">Tentang HIMATIKA</a></li>
+                        <li class="menu-text"><a href="<?= base_url("base/articles"); ?>">Artikel</a></li>
                         <li class="menu-text"><a href="<?= base_url("base/calendar"); ?>">Kalender</a></li>
                         <li class="menu-text"><a href="<?= base_url("base/contact"); ?>">Kontak Kami</a></li>
                     </ul>
