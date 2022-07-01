@@ -10,7 +10,6 @@
         <div class="artc-header">
             <div class="artc-title"><?= $article['artc_title'] ?></div>
             <div class="artc-author">
-                <div class="author-name">by <a href="<?= $article['artc_publisher_link'] ?>"><?= $article['artc_publisher'] ?></a></div>
                 <div class="published-date"><?= date('d F Y', $article['artc_date_created']) ?></div>
             </div>
         </div>

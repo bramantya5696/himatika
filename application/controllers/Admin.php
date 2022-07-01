@@ -164,7 +164,6 @@ class Admin extends CI_Controller
         $new_image = 'default.png';
 
         $this->form_validation->set_rules('artctitle', 'Article Title', 'required|trim');
-        $this->form_validation->set_rules('publisher', 'Publisher', 'required|trim');
 
         if ($this->form_validation->run() == false) {
             $this->load->view('template/dashboardheader', $data);
@@ -243,8 +242,6 @@ class Admin extends CI_Controller
             if ($this->upload->do_upload('mainimagefileedit')) {
                 $old_image = $data['sel_article']['artc_image'];
                 $new_image = $this->upload->data('file_name');
-                var_dump($new_image);
-                die;
                 if ($old_image != 'default.svg') {
                     unlink(FCPATH . 'assets/himatika/article/' . $old_image);
                 }
